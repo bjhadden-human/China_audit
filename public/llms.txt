@@ -1,0 +1,65 @@
+# C — China supremacy-loss audit
+
+> The frozen China calculation is reproducible: 61.383367% eventual loss with continuous Mozambique, or 63.254945% with split-2004. “Approximately 60:40” is coarse rounding, not a third estimate, an average of scenarios, or an additional synthesis. No weights were supplied for combining branches.
+
+Self-contained audit of a survival-model estimate of the probability that the CCP loses decisive authoritarian supremacy over China, built on Michael K. Miller's Autocratic Ruling Parties Dataset (ARPD). All text, tables, data and code below are extracted from the original single-file HTML report.
+
+## Report
+
+- [Full report (single file)](/report.md)
+- [1. Answer and audit conclusion](/report/01-conclusion.md)
+- [2. Scope, retained inputs and version history](/report/02-provenance.md)
+- [3. Operational rules and documentary adjudication](/report/03-rules.md)
+- [4. Historical survival model and estimation](/report/04-likelihood.md)
+- [5. Frozen China bridge, arithmetic and thresholds](/report/05-bridge.md)
+- [6. China evidence: support, counterevidence and dependence](/report/06-evidence.md)
+- [7. Bootstrap, profiles and coding sensitivity](/report/07-uncertainty.md)
+- [8. Alternative hazard families and old-age diagnostics](/report/08-families.md)
+- [9. Influence and infinite-tail non-identification](/report/09-tails.md)
+- [10. Reproduction, embedded data and extraction](/report/10-repro.md)
+- [11. Justified boundaries and final assessment](/report/11-limits.md)
+- [12. Source register and evidence locators](/report/12-sources.md)
+- [13. Original source attachments and validation manifest](/report/13-attachments.md)
+
+## Data (CSV)
+
+- [primary_fits](/data/primary_fits.csv): 24 rows
+- [bootstrap_summary](/data/bootstrap_summary.csv): 12 rows
+- [bootstrap_replicates](/data/bootstrap_replicates.csv): 24000 rows
+- [joint_coding_summary](/data/joint_coding_summary.csv): 6 rows
+- [joint_coding_results](/data/joint_coding_results.csv): 5832 rows
+- [alternative_families](/data/alternative_families.csv): 72 rows
+- [likelihood_profiles](/data/likelihood_profiles.csv): 18 rows
+- [one_change_sensitivity](/data/one_change_sensitivity.csv): 360 rows
+- [age60_diagnostic](/data/age60_diagnostic.csv): 3 rows
+- [age60_records](/data/age60_records.csv): 18 rows
+- [selected_record_influence](/data/selected_record_influence.csv): 36 rows
+- [identical_fit_tail_constructions](/data/identical_fit_tail_constructions.csv): 24 rows
+- [china_bridge](/data/china_bridge.csv): 54 rows
+- [bridge_thresholds](/data/bridge_thresholds.csv): 6 rows
+- [strict_rule_stress_test](/data/strict_rule_stress_test.csv): 24 rows
+- [likelihood_quadrature_checks](/data/likelihood_quadrature_checks.csv): 18 rows
+- [documentary_adjudications](/data/documentary_adjudications.csv): 15 rows
+- [source_register](/data/source_register.csv): 32 rows
+- [records_ARPD_benchmark](/data/records_ARPD_benchmark.csv): 277 rows
+- [records_Earlier_Vietnam_correction](/data/records_Earlier_Vietnam_correction.csv): 276 rows
+- [records_Frozen_continuous](/data/records_Frozen_continuous.csv): 269 rows
+- [records_Frozen_2004](/data/records_Frozen_2004.csv): 270 rows
+- [records_Frozen_2009](/data/records_Frozen_2009.csv): 270 rows
+- [records_Corrected_continuous](/data/records_Corrected_continuous.csv): 267 rows
+- [records_Corrected_2004](/data/records_Corrected_2004.csv): 268 rows
+- [records_Corrected_2009](/data/records_Corrected_2009.csv): 268 rows
+- [original_source_rows](/data/original_source_rows.csv): 479 rows
+
+## Code
+
+- [Reproduction script (Python)](/code/reproduce.py)
+- [Frozen China bridge specification](/code/frozen_bridge_specification.md)
+
+## Optional
+
+- [ARPD codebook as text](/source/ARPD-Codebook.md)
+- [Original ARPD spreadsheet](/source/AutocraticRulingPartiesDataset.xlsx)
+- [Original ARPD codebook PDF](/source/ARPD-Codebook.pdf)
+- [Manifest with SHA-256 hashes](/manifest.json)
+- [Original interactive HTML report](/)
